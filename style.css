@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner{
+    position: relative;
+    top: 250px;
+    background-color: rgb(190, 186, 186);
+    width: 450px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 20px;
+    }
+.snakeGame{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    display: block;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    top: 450px;
+    left: 36%;
+    position: relative;
+    width: 125px;
+    height: 125px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.button-up, .button-left, .button-down, .button-right{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 999;
+    background-color: black;
+    border-radius: 100%;
+    border: solid 3px rgb(255, 255, 255);
+  
+}
+
+.button-up:hover, .button-left:hover, .button-down:hover, .button-right:hover{
+    background-color: aqua;
+}
+
+.button-up{
+    left: 42.8px;
+    
+}
+.button-left{
+   
+    top: 41.9px;
+
+}
+
+.button-down{
+
+   left: 42.8px;
+   top:  85px;
+   
+}
+
+.button-right{
+    top: 41.9px;
+    left: 85px;
+
+}
